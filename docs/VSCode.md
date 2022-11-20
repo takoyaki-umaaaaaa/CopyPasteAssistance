@@ -1,5 +1,9 @@
 ﻿# Visual Studio Codeの設定情報
 
+### Linterの有効化
+Codeの種別が適用されれば、種別に応じた Linterが動作する（拡張機能が入っていれば）。
+Code種別の適用は [*.htaファイルの Code highligt有効化](#htaファイルの-code-highligt有効化) を参照
+
 ### *.htaファイルの Code highligt有効化
 
 1. メニューバーから[表示] ➠ [コマンドパレット]を開く
