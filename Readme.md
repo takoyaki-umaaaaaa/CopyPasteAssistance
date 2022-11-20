@@ -11,7 +11,7 @@
 </style>
 
 <div class="container">
-<img src="doc/images/画面.png" alt="動作画面"  align="left"  style="float: left; width: 35%; max-width: 150px; margin-right: 30px" align="left" >
+<img src="https://dev.azure.com/takoyaki0084/23a52cdd-b722-4524-98d9-7bac2e28c4e0/_apis/git/repositories/e579511e-8136-42e0-9745-58823d8f1ac9/Items?path=/docs/images/%E7%94%BB%E9%9D%A2.png&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=master" alt="動作画面"  align="left"  style="float: left; width: 35%; max-width: 150px; margin-right: 30px" align="left" >
 
 #### Project保存先
 https://dev.azure.com/takoyaki0084/コピペ補助
