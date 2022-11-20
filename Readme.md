@@ -19,7 +19,7 @@ https://dev.azure.com/takoyaki0084/コピペ補助
 「コピペ補助.hta」以外は設定ファイル。
 環境は、主に Visual Studio 2019を使用。
 
-[環境設定などは Wiki参照](docs/1_StartPage.md)
+[環境設定などは Wiki参照](docs/StartPage.md)
 </div>
 
 
