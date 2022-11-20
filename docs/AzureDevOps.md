@@ -9,6 +9,14 @@
 * ~~Azure DevOps Webポータルには表示されない。詳細メニュー等にも出てこない。~~<br>公式サイトのdocumentが古い？ Overview ➠ [Wiki](https://dev.azure.com/takoyaki0084/コピペ補助/_wiki/wikis/コピペ補助.wiki) で表示できる。
 * 
 
+#### Wiki を発行
+公式document：[Git リポジトリを Wiki に発行する](https://learn.microsoft.com/ja-jp/azure/devops/project/wiki/publish-repo-to-wiki)
+
+<small style="color: #ccc;">発行……作成とはどう違うんだ……；´Д｀)<br>どうやら次の違いっぽい。
+　作成：発行先を作成する。
+　発行：作成したWikiを公開する。
+それにしても管理が面倒そうだな……Code用Gitとは公開範囲も権限も違うから、内部的にも別管理になっているせいだろうか。
+</small>
 
 #### サポート機能
 公式document：[サポートされている機能と運用上の相違点](https://learn.microsoft.com/ja-jp/azure/devops/project/wiki/provisioned-vs-published-wiki?view=azure-devops#supported-features-and-operational-differences)
