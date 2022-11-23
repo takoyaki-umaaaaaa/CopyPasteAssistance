@@ -1,1 +1,1 @@
-type settings.txt > コピペ補助.hta:SettingData
+type settings.json > コピペ補助.hta:SettingData
