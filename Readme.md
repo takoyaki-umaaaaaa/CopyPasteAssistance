@@ -1,6 +1,6 @@
-<img src="docs/images/画面.png" alt="動作画面"  style="float: left; width: 20%; max-width: 150px; margin-right: 30px" align="left" >
-
 # コピペ補助 (Copy Paste Assistance)[^1]
+
+<img src="docs/images/画面.png" alt="動作画面"  style="float: left; width: 20%; max-width: 150px; margin-right: 30px" align="left" >
 
 [^1]: 実際には copy しか補助しません。
 
