@@ -5,7 +5,7 @@
 [^1]: 実際には copy しか補助しません。
 
 ### 機能
-[Push to Copy]ボタン押下で textareaの文字列を clipboardに copyする。
+[Push to Copy]ボタン押下で textareaの文字列を clipboardに copyする。  
 まだまだ実装中。とりあえずCopyはできる。
 
 ### 作成理由
