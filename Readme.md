@@ -27,12 +27,16 @@ https://github.com/takoyaki-umaaaaaa/CopyPasteAssistance
 
 #### 設定ファイルの形式
 
-| ADS Name     | Character code | Format |
-| :---         | :---         | :---         |
-| SettingData   | UTF-16LE non-BOM | JSON    |
+| ADS Name     | Character code | Format | CR LF |
+| :---         | :---         | :---         | :---         |
+| SettingData   | UTF-16LE non-BOM | JSON    | LF |
 
-設定項目等は下記参照。名前からだいたい判断。パラメータの種類はどこかに書く必要有りか……
+設定項目等は下記参照。名前からだいたい判断。パラメータの種類コメント[^2]は文字化けしてる…… UTF-16LEは表示できないのか？BOMがないからかな。埋め込みパラメータもないみたいだし……  
+あとこの埋め込み、常に最新を反映させることはできないのだろうか。特定コミットの表示も良いけど、自動で更新してくれないと意味ないよ……
 https://github.com/takoyaki-umaaaaaa/CopyPasteAssistance/blob/c11214b9e3f2abefac2e91b059a9319a52d0bbe2/settings.json#L1-L7
+
+[^2]: JSONファイルへのコメントとして、「JSON Perserは同じキーがある場合、大抵の環境では後のキーが有効になる」という動作を利用してコメントを入れている（JSON形式の公式定義では禁止されていたり明言されていなかったりらしい）。今回はHTAとして動かすので、IE11で動きさえすれば良い。
+
 
 #### 設定の直接編集方法
 Text editorを使うのが一番簡単。  
