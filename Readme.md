@@ -32,8 +32,7 @@ https://github.com/takoyaki-umaaaaaa/CopyPasteAssistance
 | SettingData   | UTF-16LE non-BOM | JSON    |
 
 設定項目等は下記参照。名前からだいたい判断。パラメータの種類はどこかに書く必要有りか……
-https://github.com/takoyaki-umaaaaaa/CopyPasteAssistance/blob/6499c88f815a282e8a9718be7ef075ea7784eb3f/settings.txt#L1-L7
-https://github.com/takoyaki-umaaaaaa/CopyPasteAssistance/blob/c11214b9e3f2abefac2e91b059a9319a52d0bbe2/settings.json
+https://github.com/takoyaki-umaaaaaa/CopyPasteAssistance/blob/c11214b9e3f2abefac2e91b059a9319a52d0bbe2/settings.json#L1-L7
 
 #### 設定の直接編集方法
 Text editorを使うのが一番簡単。  
