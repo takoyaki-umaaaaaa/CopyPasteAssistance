@@ -32,7 +32,9 @@ https://github.com/takoyaki-umaaaaaa/CopyPasteAssistance
 | SettingData   | UTF-16LE non-BOM | JSON    | LF |
 
 設定項目等は下記参照。名前からだいたい判断。パラメータの種類コメント[^2]は文字化けしてる…… UTF-16LEは表示できないのか？BOMがないからかな。埋め込みパラメータもないみたいだし……  
-<script src="https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2Ftakoyaki-umaaaaaa%2FCopyPasteAssistance%2Fblob%2Fmaster%2Fsettings.json&style=base16%2Fsummerfruit-light&type=code&showBorder=on&showLineNumbers=on&showFileMeta=on&showFullPath=on&showCopy=on"></script>
+https://github.com/takoyaki-umaaaaaa/CopyPasteAssistance/blob/6f5c9daf89da9c201a4c6845ca22e2d8e2122fd5/settings.json#L1-L12
+
+
 
 [^2]: JSONファイルへのコメントとして、「JSON Perserは同じキーがある場合、大抵の環境では後のキーが有効になる」という動作を利用してコメントを入れている（JSON形式の公式定義では禁止されていたり明言されていなかったりらしい）。今回はHTAとして動かすので、IE11で動きさえすれば良い。
 
