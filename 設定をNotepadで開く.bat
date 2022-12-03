@@ -1,1 +1,1 @@
-sakura ƒRƒsƒy•â•.hta:SettingData
+notepad �R�s�y�⏕.hta:SettingData

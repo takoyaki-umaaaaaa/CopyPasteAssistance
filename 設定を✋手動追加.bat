@@ -1,1 +1,1 @@
-type settings.json > コピペ補助.hta:SettingData
+cmd.exe /u /k "type settings.json > コピペ補助.hta:SettingData" && "exit"
