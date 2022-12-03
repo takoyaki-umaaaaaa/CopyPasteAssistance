@@ -1,1 +1,4 @@
-cmd.exe /u /k "type settings.json > ƒRƒsƒy•â•.hta:SettingData" && "exit"
+chcp 65001
+cmd.exe /u /c "type settings.json > ã‚³ãƒ”ãƒšè£œåŠ©.hta:SettingData"
+pause
+chcp 932
