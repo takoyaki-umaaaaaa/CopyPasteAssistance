@@ -1,4 +1,5 @@
-# Code QL 設定
+
+### Code QL 設定
 コードの脆弱性チェック  
 対象言語：javascript  
 対象ファイル：？？  
@@ -6,7 +7,7 @@
 実行時間2: 毎日 17:00 (UTC 8:00)  
 
 
-### 使用している Action
+### 使用中の Action
 * **[Checkout V3](https://github.com/marketplace/actions/checkout)**  
 指定の repositoryを downloadしてくれる
 
@@ -14,3 +15,6 @@
 ### 覚えておいたほうが良さそうな Action
 * **[GitHub Script](https://github.com/marketplace/actions/github-script)**  
 いくつかのパッケージへの参照を提供
+* **[Super-Linter](https://github.com/marketplace/actions/super-linter)**  
+様々なlinterが使える action。コピペチェックもある。
+
