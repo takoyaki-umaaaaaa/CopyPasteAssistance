@@ -34,6 +34,8 @@ jobs:
     # Runs a single command using the runners shell
     - name: Output start message
       run: echo "Start combine files"
+    - run: dir
+    - run: dir ..
     - name: Combine src files
       run: chcp 65001
     - run: echo %cd%
