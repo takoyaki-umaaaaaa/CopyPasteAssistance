@@ -16,6 +16,10 @@ on:
         # Input has to be provided for the workflow to run
         required: false
 
+env:
+  # Consoleに色を付ける(何が変わったか不明……batch側でも色を出す指定が必要なのかも)
+  CARGO_TERM_COLOR: always
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "greet"
@@ -49,5 +53,11 @@ jobs:
     - run: del コピペ補助.hta
 
     # Localから Ripositoryへ release📄をアップ
-    
+    - uses: actions/upload-artifact@v3
+      with:
+        name: upload-releasezip
+        path: release/コピペ補助.zip
+
+# job-create-release:
+#   needs: job-combine
     
