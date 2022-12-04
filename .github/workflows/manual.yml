@@ -39,13 +39,12 @@ jobs:
     # Runs a single command using the runners shell
     - name: Output start message
       run: echo "Start combine files"
-    - run: dir
-    - run: dir ..
     - name: Combine src files
       run: chcp 65001
     - run: echo %cd%
     - run: cd src
-    - run: cmd.exe /u /c "copy /a 10_top.html+20_style.css+30_body.html+40_Javascript.js+50_bottom.html ..\\コピペ補助.hta"
+    - run: dir
+    - run: cmd.exe /u /c "copy /a 10_top.html+20_style.css+30_body.html+40_Javascript.js+50_bottom.html ..\コピペ補助.hta"
     - run: exit 0
 
   job-compression:
