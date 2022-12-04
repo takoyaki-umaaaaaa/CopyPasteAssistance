@@ -28,7 +28,7 @@ jobs:
       run: 
         shell: cmd
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    # Remote repositoryから📄を checkout
     steps:
     - name: Checkout
       uses: actions/checkout@v3
@@ -36,25 +36,18 @@ jobs:
         fetch-depth: 2
     - run: git checkout HEAD^
 
-    # Runs a single command using the runners shell
+    # 分割されている source📄 を結合
     - name: Output start message
       run: echo "Start combine files"
     - name: Combine src files
       run: call CombineSrcFiles.bat
-    - run: exit 0
 
-  job-compression:
-    needs: job-combine
-    runs-on: windows-latest
-    # デフォルト設定
-    defaults:
-      run: 
-        shell: cmd
-    steps:
+    # 作成した HTAファイルを圧縮し、release📂へ
     - name: compression file
       run: echo "Start compression"
-    - run: chcp 65001
-    - run: makecab /l release コピペ補助.hta コピペ補助.cab
+    - run: call CompressReleaseFile.bat
     - run: del コピペ補助.hta
-    - run: exit 0
+
+    # Localから Ripositoryへ release📄をアップ
+    
     
