@@ -27,7 +27,7 @@ jobs:
     defaults:
       run: 
         shell: cmd
-        working-directory: ./src
+        working-directory: src
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -48,7 +48,7 @@ jobs:
     defaults:
       run: 
         shell: cmd
-        working-directory: ./src
+        working-directory: src
     steps:
     - name: compression file
       run: echo "Start compression"
