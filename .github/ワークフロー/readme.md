@@ -18,3 +18,16 @@
 * **[Super-Linter](https://github.com/marketplace/actions/super-linter)**  
 様々なlinterが使える action。コピペチェックもある。
 
+
+### 覚え書き
+1. **Web上で GitHub Actionのメニューから環境を作成するとき、Browser翻訳機能は OFFにすること。**  
+自動的に作成される📂名が日本語に翻訳された状態で作成され、Actionが動かなくなる……
+1. **初期状態は gitが入っている以外はまっさらな状態。**  
+まずは repositoryの checkoutから始める。  
+あとは apt-getか wingetかでコマンド追加するらしい。
+3. 今のところ windows-latestしか使っていないため、linuxでも同じかは不明
+   1. **`run:` による shell呼び出しは`cmd /c`として1回限りの環境として呼び出される。**  
+そのため `cd` や `chcp` を行っても次のコマンドではまた初期状態になる。  
+連続した処理は batchファイルにまとめて callで呼び出す形にする。
+   1. **日本語ファイル名での処理、Localの Windows sandboxで通っても windows-latest(2022)で失敗する。**  
+makecab.exeの作りが悪いだけのような気もするが、気になる。
