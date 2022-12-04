@@ -1,5 +1,5 @@
 ; ReleaseCabInfo.ddf
-; Release�p cab�t�@�C���쐬�p�����[�^��`
+; Release用 cabファイル作成パラメータ定義
 ;
 .OPTION EXPLICIT     ; Generate errors
 .Set CabinetFileCountThreshold=0
@@ -11,6 +11,6 @@
 .Set CompressionType=MSZIP
 .Set Cabinet=on
 .Set Compress=on
-.Set CabinetNameTemplate=�R�s�y�⏕.cab
+.Set CabinetNameTemplate=コピペ補助.cab
 Readme.md
-�R�s�y�⏕.hta
+コピペ補助.hta
