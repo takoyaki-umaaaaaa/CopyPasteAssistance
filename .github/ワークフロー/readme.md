@@ -18,6 +18,15 @@
 * **[Super-Linter](https://github.com/marketplace/actions/super-linter)**  
 様々なlinterが使える action。コピペチェックもある。
 
+### 参考サイト
+1. https://nkon.github.io/GitHub_Actions/  
+ほぼそのまま使えそう。windows-latestを使っている。
+1. https://docs.github.com/ja/actions/learn-github-actions/essential-features-of-github-actions#sharing-data-between-jobs  
+変数の使い方、artifactのアップダウン。
+1. https://github.com/actions/upload-artifact  
+アップロードアーティファクトv3
+1. https://github.com/actions/download-artifact  
+ダウンロード-アーティファクトv3
 
 ### 覚え書き
 1. **Web上で GitHub Actionのメニューから環境を作成するとき、Browser翻訳機能は OFFにすること。**  
