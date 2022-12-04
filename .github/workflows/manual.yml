@@ -30,6 +30,12 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 2
+    - run: get checkout HEAD^
+
     # Runs a single command using the runners shell
     - name: Output start message
       run: echo "Start combine files"
