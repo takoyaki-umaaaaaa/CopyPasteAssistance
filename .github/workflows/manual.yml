@@ -10,11 +10,11 @@ on:
     inputs:
       name:
         # Friendly description to be shown in the UI instead of 'name'
-        description: 'Person to greet'
+        description: 'Release コピペ補助'
         # Default value if no value is explicitly provided
-        default: 'World'
+        default: 'start'
         # Input has to be provided for the workflow to run
-        required: true
+        required: false
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -27,13 +27,13 @@ jobs:
     defaults:
       run: 
         shell: cmd
-        working-directory: /
+        working-directory: ./src
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Runs a single command using the runners shell
     - name: Output start message
-      run: echo "Start combine files}"
+      run: echo "Start combine files"
     - name: Combine src files
       run: chcp 65001
     - run: echo %cd%
@@ -48,7 +48,7 @@ jobs:
     defaults:
       run: 
         shell: cmd
-        working-directory: /
+        working-directory: ./src
     steps:
     - name: compression file
       run: echo "Start compression"
