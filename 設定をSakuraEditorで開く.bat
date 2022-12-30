@@ -1,1 +1,1 @@
-sakura コピペ補助.hta:SettingData
+start sakura コピペ補助.hta:SettingData

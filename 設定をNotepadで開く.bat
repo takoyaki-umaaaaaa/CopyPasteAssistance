@@ -1,1 +1,1 @@
-notepad コピペ補助.hta:SettingData
+start notepad コピペ補助.hta:SettingData
